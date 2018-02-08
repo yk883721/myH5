@@ -10,19 +10,27 @@
         body{
             background-image: url("./images/0.png");
             background-size: 100% 100%;
-
+        }
+        @keyframes myfirst{
+            from {opacity: 0}
+            to {opacity:100}
+        }
+        div:first-child{
+            animation: myfirst 2s infinite;
         }
     </style>
 </head>
 <body>
-
-    <h1>静夜思</h1>
-    <P>窗前明月光</P>
-    <P>疑是地上霜</P>
-    <P>举头望明月</P>
-    <P>低头思故乡</P>
+    <div>
+        <h1>静夜思</h1>
+        <P>窗前明月光</P>
+        <P>疑是地上霜</P>
+        <P>举头望明月</P>
+        <P>低头思故乡</P>
+    </div>
     <div>
         你好。
     </div>
+
 </body>
 </html>
